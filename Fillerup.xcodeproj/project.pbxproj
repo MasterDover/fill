@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843903BE1D770FC100B4C228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903BD1D770FC100B4C228 /* AppDelegate.swift */; };
+		843903C01D770FC100B4C228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903BF1D770FC100B4C228 /* ViewController.swift */; };
+		843903C31D770FC100B4C228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843903C11D770FC100B4C228 /* Main.storyboard */; };
+		843903C51D770FC100B4C228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843903C41D770FC100B4C228 /* Assets.xcassets */; };
+		843903C81D770FC100B4C228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843903C61D770FC100B4C228 /* LaunchScreen.storyboard */; };
+		843903D31D770FC100B4C228 /* FillerupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903D21D770FC100B4C228 /* FillerupTests.swift */; };
+		843903DE1D770FC100B4C228 /* FillerupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903DD1D770FC100B4C228 /* FillerupUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843903CF1D770FC100B4C228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843903B21D770FC100B4C228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843903B91D770FC100B4C228;
+			remoteInfo = Fillerup;
+		};
+		843903DA1D770FC100B4C228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843903B21D770FC100B4C228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843903B91D770FC100B4C228;
+			remoteInfo = Fillerup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843903BA1D770FC100B4C228 /* Fillerup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fillerup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843903BD1D770FC100B4C228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		843903BF1D770FC100B4C228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		843903C21D770FC100B4C228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843903C41D770FC100B4C228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843903C71D770FC100B4C228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843903C91D770FC100B4C228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843903CE1D770FC100B4C228 /* FillerupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FillerupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843903D21D770FC100B4C228 /* FillerupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillerupTests.swift; sourceTree = "<group>"; };
+		843903D41D770FC100B4C228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843903D91D770FC100B4C228 /* FillerupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FillerupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843903DD1D770FC100B4C228 /* FillerupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillerupUITests.swift; sourceTree = "<group>"; };
+		843903DF1D770FC100B4C228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843903B71D770FC100B4C228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843903CB1D770FC100B4C228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843903D61D770FC100B4C228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843903B11D770FC100B4C228 = {
+			isa = PBXGroup;
+			children = (
+				843903BC1D770FC100B4C228 /* Fillerup */,
+				843903D11D770FC100B4C228 /* FillerupTests */,
+				843903DC1D770FC100B4C228 /* FillerupUITests */,
+				843903BB1D770FC100B4C228 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843903BB1D770FC100B4C228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843903BA1D770FC100B4C228 /* Fillerup.app */,
+				843903CE1D770FC100B4C228 /* FillerupTests.xctest */,
+				843903D91D770FC100B4C228 /* FillerupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843903BC1D770FC100B4C228 /* Fillerup */ = {
+			isa = PBXGroup;
+			children = (
+				843903BD1D770FC100B4C228 /* AppDelegate.swift */,
+				843903BF1D770FC100B4C228 /* ViewController.swift */,
+				843903C11D770FC100B4C228 /* Main.storyboard */,
+				843903C41D770FC100B4C228 /* Assets.xcassets */,
+				843903C61D770FC100B4C228 /* LaunchScreen.storyboard */,
+				843903C91D770FC100B4C228 /* Info.plist */,
+			);
+			path = Fillerup;
+			sourceTree = "<group>";
+		};
+		843903D11D770FC100B4C228 /* FillerupTests */ = {
+			isa = PBXGroup;
+			children = (
+				843903D21D770FC100B4C228 /* FillerupTests.swift */,
+				843903D41D770FC100B4C228 /* Info.plist */,
+			);
+			path = FillerupTests;
+			sourceTree = "<group>";
+		};
+		843903DC1D770FC100B4C228 /* FillerupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				843903DD1D770FC100B4C228 /* FillerupUITests.swift */,
+				843903DF1D770FC100B4C228 /* Info.plist */,
+			);
+			path = FillerupUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843903B91D770FC100B4C228 /* Fillerup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843903E21D770FC100B4C228 /* Build configuration list for PBXNativeTarget "Fillerup" */;
+			buildPhases = (
+				843903B61D770FC100B4C228 /* Sources */,
+				843903B71D770FC100B4C228 /* Frameworks */,
+				843903B81D770FC100B4C228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fillerup;
+			productName = Fillerup;
+			productReference = 843903BA1D770FC100B4C228 /* Fillerup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843903CD1D770FC100B4C228 /* FillerupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843903E51D770FC100B4C228 /* Build configuration list for PBXNativeTarget "FillerupTests" */;
+			buildPhases = (
+				843903CA1D770FC100B4C228 /* Sources */,
+				843903CB1D770FC100B4C228 /* Frameworks */,
+				843903CC1D770FC100B4C228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843903D01D770FC100B4C228 /* PBXTargetDependency */,
+			);
+			name = FillerupTests;
+			productName = FillerupTests;
+			productReference = 843903CE1D770FC100B4C228 /* FillerupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		843903D81D770FC100B4C228 /* FillerupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843903E81D770FC100B4C228 /* Build configuration list for PBXNativeTarget "FillerupUITests" */;
+			buildPhases = (
+				843903D51D770FC100B4C228 /* Sources */,
+				843903D61D770FC100B4C228 /* Frameworks */,
+				843903D71D770FC100B4C228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843903DB1D770FC100B4C228 /* PBXTargetDependency */,
+			);
+			name = FillerupUITests;
+			productName = FillerupUITests;
+			productReference = 843903D91D770FC100B4C228 /* FillerupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843903B21D770FC100B4C228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = BasedData;
+				TargetAttributes = {
+					843903B91D770FC100B4C228 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					843903CD1D770FC100B4C228 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 843903B91D770FC100B4C228;
+					};
+					843903D81D770FC100B4C228 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 843903B91D770FC100B4C228;
+					};
+				};
+			};
+			buildConfigurationList = 843903B51D770FC100B4C228 /* Build configuration list for PBXProject "Fillerup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843903B11D770FC100B4C228;
+			productRefGroup = 843903BB1D770FC100B4C228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843903B91D770FC100B4C228 /* Fillerup */,
+				843903CD1D770FC100B4C228 /* FillerupTests */,
+				843903D81D770FC100B4C228 /* FillerupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843903B81D770FC100B4C228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843903C81D770FC100B4C228 /* LaunchScreen.storyboard in Resources */,
+				843903C51D770FC100B4C228 /* Assets.xcassets in Resources */,
+				843903C31D770FC100B4C228 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843903CC1D770FC100B4C228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843903D71D770FC100B4C228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843903B61D770FC100B4C228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843903C01D770FC100B4C228 /* ViewController.swift in Sources */,
+				843903BE1D770FC100B4C228 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843903CA1D770FC100B4C228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843903D31D770FC100B4C228 /* FillerupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843903D51D770FC100B4C228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843903DE1D770FC100B4C228 /* FillerupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843903D01D770FC100B4C228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843903B91D770FC100B4C228 /* Fillerup */;
+			targetProxy = 843903CF1D770FC100B4C228 /* PBXContainerItemProxy */;
+		};
+		843903DB1D770FC100B4C228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843903B91D770FC100B4C228 /* Fillerup */;
+			targetProxy = 843903DA1D770FC100B4C228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		843903C11D770FC100B4C228 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843903C21D770FC100B4C228 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		843903C61D770FC100B4C228 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843903C71D770FC100B4C228 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843903E01D770FC100B4C228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843903E11D770FC100B4C228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843903E31D770FC100B4C228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fillerup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.based-data.Fillerup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		843903E41D770FC100B4C228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fillerup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.based-data.Fillerup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		843903E61D770FC100B4C228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FillerupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.based-data.FillerupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fillerup.app/Fillerup";
+			};
+			name = Debug;
+		};
+		843903E71D770FC100B4C228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FillerupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.based-data.FillerupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fillerup.app/Fillerup";
+			};
+			name = Release;
+		};
+		843903E91D770FC100B4C228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FillerupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.based-data.FillerupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fillerup;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		843903EA1D770FC100B4C228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FillerupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.based-data.FillerupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fillerup;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843903B51D770FC100B4C228 /* Build configuration list for PBXProject "Fillerup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843903E01D770FC100B4C228 /* Debug */,
+				843903E11D770FC100B4C228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843903E21D770FC100B4C228 /* Build configuration list for PBXNativeTarget "Fillerup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843903E31D770FC100B4C228 /* Debug */,
+				843903E41D770FC100B4C228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		843903E51D770FC100B4C228 /* Build configuration list for PBXNativeTarget "FillerupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843903E61D770FC100B4C228 /* Debug */,
+				843903E71D770FC100B4C228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		843903E81D770FC100B4C228 /* Build configuration list for PBXNativeTarget "FillerupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843903E91D770FC100B4C228 /* Debug */,
+				843903EA1D770FC100B4C228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843903B21D770FC100B4C228 /* Project object */;
+}
