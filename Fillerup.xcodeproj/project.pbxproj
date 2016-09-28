@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09CF8384CE7F118186981C0C /* Pods_FillerupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 396D7D308C5DFC7AED4B4C12 /* Pods_FillerupUITests.framework */; };
+		51D3FEAC9C5D224D6119F7B5 /* Pods_FillerupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F63CE591556D6168521A25 /* Pods_FillerupTests.framework */; };
 		843903BE1D770FC100B4C228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903BD1D770FC100B4C228 /* AppDelegate.swift */; };
 		843903C01D770FC100B4C228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903BF1D770FC100B4C228 /* ViewController.swift */; };
 		843903C31D770FC100B4C228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843903C11D770FC100B4C228 /* Main.storyboard */; };
@@ -14,6 +16,18 @@
 		843903C81D770FC100B4C228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843903C61D770FC100B4C228 /* LaunchScreen.storyboard */; };
 		843903D31D770FC100B4C228 /* FillerupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903D21D770FC100B4C228 /* FillerupTests.swift */; };
 		843903DE1D770FC100B4C228 /* FillerupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903DD1D770FC100B4C228 /* FillerupUITests.swift */; };
+		843903ED1D77111900B4C228 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903EB1D77111900B4C228 /* View1.swift */; settings = {ASSET_TAGS = (); }; };
+		843903EE1D77111900B4C228 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843903EC1D77111900B4C228 /* View1.xib */; settings = {ASSET_TAGS = (); }; };
+		843903F11D77133B00B4C228 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903EF1D77133B00B4C228 /* View2.swift */; settings = {ASSET_TAGS = (); }; };
+		843903F21D77133B00B4C228 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843903F01D77133B00B4C228 /* View2.xib */; settings = {ASSET_TAGS = (); }; };
+		843903F51D77156300B4C228 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903F31D77156300B4C228 /* View3.swift */; settings = {ASSET_TAGS = (); }; };
+		843903F61D77156300B4C228 /* View3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843903F41D77156300B4C228 /* View3.xib */; settings = {ASSET_TAGS = (); }; };
+		843903F91D77172D00B4C228 /* View4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903F71D77172D00B4C228 /* View4.swift */; settings = {ASSET_TAGS = (); }; };
+		843903FA1D77172D00B4C228 /* View4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843903F81D77172D00B4C228 /* View4.xib */; settings = {ASSET_TAGS = (); }; };
+		843903FD1D77176F00B4C228 /* View5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843903FB1D77176F00B4C228 /* View5.swift */; settings = {ASSET_TAGS = (); }; };
+		843903FE1D77176F00B4C228 /* View5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843903FC1D77176F00B4C228 /* View5.xib */; settings = {ASSET_TAGS = (); }; };
+		843904001D771C3800B4C228 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843903FF1D771C3800B4C228 /* GoogleService-Info.plist */; settings = {ASSET_TAGS = (); }; };
+		B6B133F4A91F3A0B1A4FB666 /* Pods_Fillerup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D14406E92CB62D7A692B228 /* Pods_Fillerup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10C4868F3F594319506F185A /* Pods-FillerupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FillerupUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FillerupUITests/Pods-FillerupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2118BB4A92227CCCC10C2ABD /* Pods-Fillerup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fillerup.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fillerup/Pods-Fillerup.release.xcconfig"; sourceTree = "<group>"; };
+		278B6EAA5AB12581FDADE0A0 /* Pods-FillerupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FillerupTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FillerupTests/Pods-FillerupTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D26B27B0A6B56F1E760E953 /* Pods-FillerupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FillerupUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FillerupUITests/Pods-FillerupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		396D7D308C5DFC7AED4B4C12 /* Pods_FillerupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FillerupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D14406E92CB62D7A692B228 /* Pods_Fillerup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fillerup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F03C049D4F1EC717A9678F1 /* Pods-Fillerup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fillerup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fillerup/Pods-Fillerup.debug.xcconfig"; sourceTree = "<group>"; };
+		7EFFF9994746B07861EF968B /* Pods-FillerupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FillerupTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FillerupTests/Pods-FillerupTests.debug.xcconfig"; sourceTree = "<group>"; };
 		843903BA1D770FC100B4C228 /* Fillerup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fillerup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843903BD1D770FC100B4C228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843903BF1D770FC100B4C228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +69,18 @@
 		843903D91D770FC100B4C228 /* FillerupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FillerupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843903DD1D770FC100B4C228 /* FillerupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillerupUITests.swift; sourceTree = "<group>"; };
 		843903DF1D770FC100B4C228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843903EB1D77111900B4C228 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		843903EC1D77111900B4C228 /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
+		843903EF1D77133B00B4C228 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = View2.swift; path = ../View2.swift; sourceTree = "<group>"; };
+		843903F01D77133B00B4C228 /* View2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = View2.xib; path = ../View2.xib; sourceTree = "<group>"; };
+		843903F31D77156300B4C228 /* View3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
+		843903F41D77156300B4C228 /* View3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View3.xib; sourceTree = "<group>"; };
+		843903F71D77172D00B4C228 /* View4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View4.swift; sourceTree = "<group>"; };
+		843903F81D77172D00B4C228 /* View4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View4.xib; sourceTree = "<group>"; };
+		843903FB1D77176F00B4C228 /* View5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View5.swift; sourceTree = "<group>"; };
+		843903FC1D77176F00B4C228 /* View5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View5.xib; sourceTree = "<group>"; };
+		843903FF1D771C3800B4C228 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		85F63CE591556D6168521A25 /* Pods_FillerupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FillerupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B133F4A91F3A0B1A4FB666 /* Pods_Fillerup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D3FEAC9C5D224D6119F7B5 /* Pods_FillerupTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +104,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CF8384CE7F118186981C0C /* Pods_FillerupUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EBEF1B511B5284652D6DC9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D14406E92CB62D7A692B228 /* Pods_Fillerup.framework */,
+				85F63CE591556D6168521A25 /* Pods_FillerupTests.framework */,
+				396D7D308C5DFC7AED4B4C12 /* Pods_FillerupUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		843903B11D770FC100B4C228 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +128,8 @@
 				843903D11D770FC100B4C228 /* FillerupTests */,
 				843903DC1D770FC100B4C228 /* FillerupUITests */,
 				843903BB1D770FC100B4C228 /* Products */,
+				9FD109008245C3013A8726D4 /* Pods */,
+				0EBEF1B511B5284652D6DC9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +146,23 @@
 		843903BC1D770FC100B4C228 /* Fillerup */ = {
 			isa = PBXGroup;
 			children = (
+				843903EF1D77133B00B4C228 /* View2.swift */,
+				843903F01D77133B00B4C228 /* View2.xib */,
 				843903BD1D770FC100B4C228 /* AppDelegate.swift */,
 				843903BF1D770FC100B4C228 /* ViewController.swift */,
+				843903F71D77172D00B4C228 /* View4.swift */,
+				843903F81D77172D00B4C228 /* View4.xib */,
+				843903FB1D77176F00B4C228 /* View5.swift */,
+				843903FC1D77176F00B4C228 /* View5.xib */,
 				843903C11D770FC100B4C228 /* Main.storyboard */,
+				843903F31D77156300B4C228 /* View3.swift */,
+				843903F41D77156300B4C228 /* View3.xib */,
+				843903EB1D77111900B4C228 /* View1.swift */,
+				843903EC1D77111900B4C228 /* View1.xib */,
 				843903C41D770FC100B4C228 /* Assets.xcassets */,
 				843903C61D770FC100B4C228 /* LaunchScreen.storyboard */,
 				843903C91D770FC100B4C228 /* Info.plist */,
+				843903FF1D771C3800B4C228 /* GoogleService-Info.plist */,
 			);
 			path = Fillerup;
 			sourceTree = "<group>";
@@ -125,6 +185,19 @@
 			path = FillerupUITests;
 			sourceTree = "<group>";
 		};
+		9FD109008245C3013A8726D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F03C049D4F1EC717A9678F1 /* Pods-Fillerup.debug.xcconfig */,
+				2118BB4A92227CCCC10C2ABD /* Pods-Fillerup.release.xcconfig */,
+				7EFFF9994746B07861EF968B /* Pods-FillerupTests.debug.xcconfig */,
+				278B6EAA5AB12581FDADE0A0 /* Pods-FillerupTests.release.xcconfig */,
+				2D26B27B0A6B56F1E760E953 /* Pods-FillerupUITests.debug.xcconfig */,
+				10C4868F3F594319506F185A /* Pods-FillerupUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843903E21D770FC100B4C228 /* Build configuration list for PBXNativeTarget "Fillerup" */;
 			buildPhases = (
+				ADA9A09D60336899FD0B0B21 /* [CP] Check Pods Manifest.lock */,
 				843903B61D770FC100B4C228 /* Sources */,
 				843903B71D770FC100B4C228 /* Frameworks */,
 				843903B81D770FC100B4C228 /* Resources */,
+				4308A395A0EE3DAE883407BC /* [CP] Embed Pods Frameworks */,
+				8911136F167212119C6B1E88 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843903E51D770FC100B4C228 /* Build configuration list for PBXNativeTarget "FillerupTests" */;
 			buildPhases = (
+				BE5C163B6E61D5A4420D47FE /* [CP] Check Pods Manifest.lock */,
 				843903CA1D770FC100B4C228 /* Sources */,
 				843903CB1D770FC100B4C228 /* Frameworks */,
 				843903CC1D770FC100B4C228 /* Resources */,
+				2DE15DBCBBBE0667882AA064 /* [CP] Embed Pods Frameworks */,
+				D7510BC72CDE08AC869976E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 843903E81D770FC100B4C228 /* Build configuration list for PBXNativeTarget "FillerupUITests" */;
 			buildPhases = (
+				011F5467870CEFF901C34F7C /* [CP] Check Pods Manifest.lock */,
 				843903D51D770FC100B4C228 /* Sources */,
 				843903D61D770FC100B4C228 /* Frameworks */,
 				843903D71D770FC100B4C228 /* Resources */,
+				82D56236B179A84175E25236 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +311,12 @@
 			files = (
 				843903C81D770FC100B4C228 /* LaunchScreen.storyboard in Resources */,
 				843903C51D770FC100B4C228 /* Assets.xcassets in Resources */,
+				843904001D771C3800B4C228 /* GoogleService-Info.plist in Resources */,
+				843903FE1D77176F00B4C228 /* View5.xib in Resources */,
+				843903FA1D77172D00B4C228 /* View4.xib in Resources */,
+				843903F61D77156300B4C228 /* View3.xib in Resources */,
+				843903EE1D77111900B4C228 /* View1.xib in Resources */,
+				843903F21D77133B00B4C228 /* View2.xib in Resources */,
 				843903C31D770FC100B4C228 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,13 +337,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		011F5467870CEFF901C34F7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DE15DBCBBBE0667882AA064 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FillerupTests/Pods-FillerupTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4308A395A0EE3DAE883407BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fillerup/Pods-Fillerup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82D56236B179A84175E25236 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FillerupUITests/Pods-FillerupUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8911136F167212119C6B1E88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fillerup/Pods-Fillerup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA9A09D60336899FD0B0B21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE5C163B6E61D5A4420D47FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7510BC72CDE08AC869976E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FillerupTests/Pods-FillerupTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		843903B61D770FC100B4C228 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				843903C01D770FC100B4C228 /* ViewController.swift in Sources */,
+				843903F91D77172D00B4C228 /* View4.swift in Sources */,
+				843903F51D77156300B4C228 /* View3.swift in Sources */,
+				843903ED1D77111900B4C228 /* View1.swift in Sources */,
 				843903BE1D770FC100B4C228 /* AppDelegate.swift in Sources */,
+				843903FD1D77176F00B4C228 /* View5.swift in Sources */,
+				843903F11D77133B00B4C228 /* View2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +611,7 @@
 		};
 		843903E31D770FC100B4C228 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F03C049D4F1EC717A9678F1 /* Pods-Fillerup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fillerup/Info.plist;
@@ -407,6 +623,7 @@
 		};
 		843903E41D770FC100B4C228 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2118BB4A92227CCCC10C2ABD /* Pods-Fillerup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Fillerup/Info.plist;
@@ -418,6 +635,7 @@
 		};
 		843903E61D770FC100B4C228 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFFF9994746B07861EF968B /* Pods-FillerupTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FillerupTests/Info.plist;
@@ -430,6 +648,7 @@
 		};
 		843903E71D770FC100B4C228 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 278B6EAA5AB12581FDADE0A0 /* Pods-FillerupTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FillerupTests/Info.plist;
@@ -442,6 +661,7 @@
 		};
 		843903E91D770FC100B4C228 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D26B27B0A6B56F1E760E953 /* Pods-FillerupUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FillerupUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +674,7 @@
 		};
 		843903EA1D770FC100B4C228 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C4868F3F594319506F185A /* Pods-FillerupUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = FillerupUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -483,6 +704,7 @@
 				843903E41D770FC100B4C228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843903E51D770FC100B4C228 /* Build configuration list for PBXNativeTarget "FillerupTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +713,7 @@
 				843903E71D770FC100B4C228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		843903E81D770FC100B4C228 /* Build configuration list for PBXNativeTarget "FillerupUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +722,7 @@
 				843903EA1D770FC100B4C228 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

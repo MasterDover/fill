@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>340482218452-pa1en4g31fmetq9b6qnd21la9f1q4g7j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.340482218452-pa1en4g31fmetq9b6qnd21la9f1q4g7j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD0jDnggs3e2BxcLL0jKBuN3Eb5e9h_CWQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>340482218452</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.based-data.Fillerup</string>
+	<key>PROJECT_ID</key>
+	<string>fillerup-cfb35</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fillerup-cfb35.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:340482218452:ios:0ad05a3bba6b8a90</string>
+	<key>DATABASE_URL</key>
+	<string>https://fillerup-cfb35.firebaseio.com</string>
+</dict>
+</plist>
